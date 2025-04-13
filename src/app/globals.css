@@ -39,6 +39,9 @@ body {
   
   font-family: "Mulish", 'sans-serif';
 
+  .header{
+    font-family: 'DreamCaps', serif;
+  }
   .heading {
     /* font-family: 'Cormorant Garamond', serif; */
     /* font-family: 'Pinyon Script', cursive; */
@@ -68,7 +71,7 @@ body {
  p {
   color: #787878;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 15px;
  }
 
   
