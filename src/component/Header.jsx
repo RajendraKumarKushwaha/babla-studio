@@ -13,7 +13,7 @@ export default function HeaderPage1() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="w-full pt-serif uppercase mb-[45px]  text-[#000000]">
+        <header className="w-full uppercase mb-[45px]  text-[#000000]">
             {/* Desktop Layout */}
             <div className="hidden lg:flex flex-col items-center justify-center text-[#000000]  px-4 py-6 gap-6">
                 {/* Logo Centered */}
@@ -40,7 +40,7 @@ export default function HeaderPage1() {
 
             {/* Mobile Layout */}
             <div className="flex lg:hidden items-center justify-between px-4 py-4">
-                <img src="/images/home/kalpanalogo.png" className="w-32" alt="logo" />
+                <img src="/images/logo.png" className="w-12" alt="logo" />
                 <button
                     className="text-white"
                     onClick={() => setIsOpen(true)}
@@ -51,33 +51,33 @@ export default function HeaderPage1() {
             </div>
 
             {/* Slide-In Mobile Menu */}
-            <div className={`fixed top-0 left-0 h-full w-64 bg-[#D1A1A1] shadow-md transform transition-transform duration-300 z-50 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
+            <div className={`fixed top-0 left-0 h-full w-64 bg-[#f5f1eb] shadow-md transform transition-transform duration-300 z-50 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
                 <div className="flex items-center justify-between px-4 py-4 border-b">
-                    <img src="/images/home/kalpanalogo.png" className="w-24" alt="logo" />
+                    <img src="/images/logo.png" className="w-12" alt="logo" />
                     <button onClick={() => setIsOpen(false)} aria-label="Close Menu" className="text-oklch">
                         <X size={24} />
                     </button>
                 </div>
-                <nav className="flex flex-col gap-4 px-6 py-6 bg-[#D1A1A1] text-oklch">
+                <nav className="flex flex-col gap-4 px-6 py-6 bg-[#f5f1eb] text-[#222222]">
                     <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
-                        <Home size={20} className="text-oklch" /> Home
+                        <Home size={20} className="text-[#222222]" /> Home
                     </Link>
                     <Link href="/gallery" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
-                        <Image size={20} className="text-oklch" /> Gallery
+                        <Image size={20} className="text-[#222222]" /> Gallery
                     </Link>
-                    <Link href="/films" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
-                        <Image size={20} className="text-oklch" /> Films
+                    <Link href="/gallery2" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
+                        <Image size={20} className="text-[#222222]" /> Gallery2
                     </Link>
                     <Link href="/services" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
-                        <Briefcase size={20} className="text-oklch" /> Services
+                        <Briefcase size={20} className="text-[#222222]" /> Services
                     </Link>
                     <Link href="/about-us" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
-                        <Info size={20} className="text-oklch" /> About Us
+                        <Info size={20} className="text-[#222222]" /> About Us
                     </Link>
                     <Link href="/contact-us" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
-                        <Mail size={20} className="text-oklch" /> Contact
+                        <Mail size={20} className="text-[#222222]" /> Contact
                     </Link>
-                    <a
+                    {/* <a
                         href="https://g.page/r/CQ_S4e81XFoMEAI/review"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -85,7 +85,7 @@ export default function HeaderPage1() {
                     >
                         <StarIcon size={20} className="text-oklch" />
                         <span>Rate Us</span>
-                    </a>
+                    </a> */}
                 </nav>
             </div>
 
