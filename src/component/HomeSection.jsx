@@ -35,7 +35,7 @@ const slides = [
 
 export default function HomePage4() {
     return (
-        <section className="creative-photography--slider  theme1">
+        <section className="creative-photography--slider  w-[90%] md:w-[68vw] lg:w-[68vw]  theme1">
             <Swiper
                 loop
                 parallax
