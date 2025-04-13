@@ -42,7 +42,7 @@ export default function HeaderPage1() {
             <div className="flex lg:hidden items-center justify-between px-4 py-4">
                 <img src="/images/logo.png" className="w-12" alt="logo" />
                 <button
-                    className="text-white"
+                    className="text-[#222222]"
                     onClick={() => setIsOpen(true)}
                     aria-label="Open Menu"
                 >
@@ -54,7 +54,7 @@ export default function HeaderPage1() {
             <div className={`fixed top-0 left-0 h-full w-64 bg-[#f5f1eb] shadow-md transform transition-transform duration-300 z-50 ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
                 <div className="flex items-center justify-between px-4 py-4 border-b">
                     <img src="/images/logo.png" className="w-12" alt="logo" />
-                    <button onClick={() => setIsOpen(false)} aria-label="Close Menu" className="text-oklch">
+                    <button onClick={() => setIsOpen(false)} aria-label="Close Menu" className="text-[#222222]">
                         <X size={24} />
                     </button>
                 </div>
