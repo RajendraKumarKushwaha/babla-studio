@@ -13,20 +13,20 @@ export default function HeaderPage1() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="w-full pt-serif uppercase mb-[45px]  text-[#000000] hover:text-[#4a2c2c]">
+        <header className="w-full pt-serif uppercase mb-[45px]  text-[#000000]">
             {/* Desktop Layout */}
-            <div className="hidden lg:flex flex-col items-center justify-center text-[#000000] px-4 py-6 gap-6">
+            <div className="hidden lg:flex flex-col items-center justify-center text-[#000000]  px-4 py-6 gap-6">
                 {/* Logo Centered */}
                 <img src="/images/logo.png" className="w-30" alt="logo" />
 
                 {/* Navigation Centered Below Logo */}
                 <div className="flex gap-23 text-[15px]">
-                    <Link className="hover:text-[#4a2c2c]" href="/">Home</Link>
-                    <Link className="hover:text-[#4a2c2c]" href="/gallery">Gallery</Link>
-                    <Link className="hover:text-[#4a2c2c]" href="/films">Films</Link>
-                    <Link className="hover:text-[#4a2c2c]" href="/services">Services</Link>
-                    <Link className="hover:text-[#4a2c2c]" href="/about-us">About Us</Link>
-                    <Link className="hover:text-[#4a2c2c]" href="/contact-us">Contact</Link>
+                    <Link className="hover:text-[#B3B3B3]" href="/">Home</Link>
+                    <Link className="hover:text-[#B3B3B3]" href="/gallery">Gallery</Link>
+                    <Link className="hover:text-[#B3B3B3]" href="/gallery2">Gallery2</Link>
+                    <Link className="hover:text-[#B3B3B3]" href="/services">Services</Link>
+                    <Link className="hover:text-[#B3B3B3]" href="/about-us">About Us</Link>
+                    <Link className="hover:text-[#B3B3B3]" href="/contact-us">Contact</Link>
                     {/* <a
                         href="https://g.page/r/CQ_S4e81XFoMEAI/review"
                         target="_blank"

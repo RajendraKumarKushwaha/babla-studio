@@ -6,7 +6,7 @@ import 'swiper/css/autoplay';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-export default function HomeSlider({ testimonials }) {
+export default function GallerySlider({ testimonials }) {
   return (
     <div className="relative w-[90%] mx-auto  ">
       <Swiper
@@ -14,10 +14,10 @@ export default function HomeSlider({ testimonials }) {
         spaceBetween={0}
         slidesPerView={1}
         loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -36,7 +36,7 @@ export default function HomeSlider({ testimonials }) {
       >
         {testimonials.map((item, idx) => (
           <SwiperSlide key={idx}>
-            <div className=" z-100 min-h-100 border-0  w-full h-full flex flex-col items-center text-center">
+            <div className=" z-100 min-h-100   w-full h-full flex flex-col items-center text-center">
               <img
                 src={item.image}
                 alt={item.name}
@@ -48,11 +48,11 @@ export default function HomeSlider({ testimonials }) {
       </Swiper>
       
       {/* Custom Navigation Buttons */}
-      <button className="swiper-button-prev z-200 absolute left-4 top-1/2 transform -translate-y-1/2  p-3 rounded-full">
-        <ChevronLeft className="text-white w-10 h-10" />
+      <button className="swiper-button-prev z-1000 absolute left-3 top-1/2 transform -translate-y-1/2  p-3 rounded-full">
+        <ChevronLeft className="text-white w-8 h-8" />
       </button>
-      <button className="swiper-button-next z-200 absolute right-4 top-1/2 transform -translate-y-1/2  p-3 rounded-full">
-        <ChevronRight className="text-white w-10 h-10" />
+      <button className="swiper-button-next z-1000 absolute right-3 top-1/2 transform -translate-y-1/2  p-3 rounded-full">
+        <ChevronRight className="text-white w-8 h-8" />
       </button>
     </div>
   );

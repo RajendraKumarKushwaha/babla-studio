@@ -14,28 +14,28 @@ const slides = [
         title: 'Desert',
         subtitle: 'Lonliness',
         outline: 'Folio',
-        image: 'https://cdn.pixabay.com/photo/2020/12/10/19/06/wedding-5821103_1280.jpg',
+        image: 'https://images.pexels.com/photos/1295946/pexels-photo-1295946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         // layer: 'https://imgpanda.com/upload/ib/QTBKjzDqxD.png',
     },
     {
         title: 'Desert',
         subtitle: 'Lonliness',
         outline: 'Folio',
-        image: 'https://images.pexels.com/photos/13156811/pexels-photo-13156811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        image: 'https://images.pexels.com/photos/1491282/pexels-photo-1491282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         // layer: 'https://imgpanda.com/upload/ib/QTBKjzDqxD.png',
     },
     {
         title: 'Desert',
         subtitle: 'Lonliness',
         outline: 'Folio',
-        image: 'https://cdn.pixabay.com/photo/2020/12/10/19/06/wedding-5821103_1280.jpg',
+        image: 'https://cdn.pixabay.com/photo/2022/01/30/05/50/couple-6979884_1280.jpg',
         // layer: 'https://imgpanda.com/upload/ib/QTBKjzDqxD.png',
     },
 ];
 
 export default function HomePage4() {
     return (
-        <section className="creative-photography--slider theme1">
+        <section className="creative-photography--slider  theme1">
             <Swiper
                 loop
                 parallax
