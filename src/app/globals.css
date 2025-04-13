@@ -50,7 +50,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
     /* font-family: 'Pinyon Script', cursive; */
     /* font-family: 'Luxurious Script', cursive; */
-    font-family: 'Courgette', cursive;
+    /* font-family: 'Courgette', cursive; */
     letter-spacing: 3px;
     font-weight: 300;
    
@@ -60,7 +60,9 @@ body {
     font-size: 30px;
   }
  p {
-  font-size: 15px;
+  color: #787878;
+  font-weight: 300;
+  font-size: 16px;
  }
 
   .para {

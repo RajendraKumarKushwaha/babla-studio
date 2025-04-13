@@ -7,7 +7,7 @@ export default function WeddingStory({ title, date, description, images }) {
       <div className="text-left w-[90%] mx-auto mb-6">
         <h2 className="text-3xl text-[#222222] tracking-wide">{title}</h2>
         <p className="text-sm text-[#B3B3B3] mt-1">{date}</p>
-        <p className="mt-4 leading-relaxed text-[#575757]">{description}</p>
+        <p className="mt-4 leading-relaxed text-[#787878]">{description}</p>
       </div>
 
       {/* Image Slider */}

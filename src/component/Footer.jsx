@@ -26,30 +26,30 @@ export default function Footer() {
                     <h3 className="text-lg font-bold uppercase mb-4 text-[#222222] tracking-widest">Follow Us</h3>
                     <div className="flex items-center justify-center gap-3 mb-4">
                         <a href="#" className="hover:scale-110 transition-transform">
-                            <FaInstagram className="text-[#575757] text-xl" />
+                            <FaInstagram className="text-[#787878] text-xl" />
                         </a>
-                        <div className="w-10 h-[1px] bg-gray-600" />
+                        <div className="w-10 h-[1px] bg-[#cdcac5]" />
 
                         <a href="#" className="hover:scale-110 transition-transform">
-                            <FaFacebook className="text-[#575757] text-xl" />
+                            <FaFacebook className="text-[#787878] text-xl" />
                         </a>
-                        <div className="w-10 h-[1px] bg-gray-600" />
+                        <div className="w-10 h-[1px] bg-[#cdcac5]" />
 
                         <a href="#" className="hover:scale-110 transition-transform">
-                            <FaYoutube className="text-[#575757] text-xl" />
+                            <FaYoutube className="text-[#787878] text-xl" />
                         </a>
-                        <div className="w-10 h-[1px] bg-gray-600" />
+                        <div className="w-10 h-[1px] bg-[#cdcac5]" />
 
                         <a href="#" className="hover:scale-110 transition-transform">
-                            <FaTwitter className="text-[#575757] text-xl" />
+                            <FaTwitter className="text-[#787878] text-xl" />
                         </a>
                     </div>
 
-                    <p className=" text-[#575757]">hello@bablephotography.com</p>
+                    <p className=" text-[#787878]">hello@bablephotography.com</p>
                 </div>
 
                 {/* Vertical Line 1 */}
-                <div className="hidden lg:block w-px bg-[#575757] h-full mx-auto" />
+                <div className="hidden lg:block w-px bg-[#cdcac5] h-full mx-auto" />
 
                 {/* COLUMN 2: Circular Spinning Text + Signature */}
                 <div className="lg:col-span-1 flex items-center justify-center relative h-64">
@@ -80,7 +80,7 @@ export default function Footer() {
                 </div>
 
                 {/* Vertical Line 2 */}
-                <div className="hidden lg:block w-px bg-[#575757] h-full mx-auto" />
+                <div className="hidden lg:block w-px bg-[#cdcac5] h-full mx-auto" />
 
                 {/* COLUMN 3: Newsletter */}
                 {/* COLUMN 3: Address */}
@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
 
             {/* Subfooter */}
-            <div className="border-t border-gray-700 py-4 text-center  text-gray-500">
+            <div className="border-t border-[#cdcac5] py-4 text-center  text-gray-500">
                 © {new Date().getFullYear()} Babla Studio • All rights reserved.
             </div>
         </footer>

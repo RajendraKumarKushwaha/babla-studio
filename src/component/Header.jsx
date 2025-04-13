@@ -15,7 +15,7 @@ export default function HeaderPage1() {
     return (
         <header className="w-full uppercase mb-[45px]  text-[#000000]">
             {/* Desktop Layout */}
-            <div className="hidden lg:flex flex-col items-center justify-center text-[#000000]  px-4 py-6 gap-6">
+            <div className="hidden lg:flex flex-col items-center justify-center text-[#787878]  px-4 py-6 gap-6">
                 {/* Logo Centered */}
                 <img src="/images/logo.png" className="w-30" alt="logo" />
 
