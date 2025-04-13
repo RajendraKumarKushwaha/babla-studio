@@ -13,14 +13,14 @@ export default function HeaderPage1() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <header className="w-full uppercase mb-[45px] header text-[#000000]">
+        <header className="w-full uppercase mb-[45px]  text-[#000000]">
             {/* Desktop Layout */}
-            <div className="hidden lg:flex flex-col items-center justify-center text-[#22222] text-[13px]  px-4 py-6 gap-6">
+            <div className="hidden lg:flex flex-col items-center justify-center text-[#787878]  px-4 py-6 gap-6">
                 {/* Logo Centered */}
                 <img src="/images/logo.png" className="w-30" alt="logo" />
 
                 {/* Navigation Centered Below Logo */}
-                <div className="flex gap-23 text-[13px]">
+                <div className="flex gap-23 text-[15px]">
                     <Link className="hover:text-[#B3B3B3]" href="/">Home</Link>
                     <Link className="hover:text-[#B3B3B3]" href="/gallery">Gallery</Link>
                     <Link className="hover:text-[#B3B3B3]" href="/gallery2">Gallery2</Link>
@@ -58,7 +58,7 @@ export default function HeaderPage1() {
                         <X size={24} />
                     </button>
                 </div>
-                <nav className="flex flex-col gap-4 px-6 py-6 bg-[#f5f1eb] text-[#222222] text-[13px]">
+                <nav className="flex flex-col gap-4 px-6 py-6 bg-[#f5f1eb] text-[#222222]">
                     <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-2">
                         <Home size={20} className="text-[#222222]" /> Home
                     </Link>
