@@ -40,7 +40,7 @@ export default function HeaderPage1() {
 
             {/* Mobile Layout */}
             <div className="flex lg:hidden items-center justify-between px-4 py-4">
-                <img src="/images/logo.png" className="w-12" alt="logo" />
+                <img src="/images/demologo.png" className="w-12" alt="logo" />
                 <button
                     className="text-[#222222]"
                     onClick={() => setIsOpen(true)}
