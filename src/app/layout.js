@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeaderPage1 from "@/component/Header";
 import Footer from "@/component/Footer";
+import WhatsAppButton from "@/clientComponent/Whatsapp";
 
 
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <HeaderPage1 />
         {children}
         <Footer />
+        <WhatsAppButton/>
       </body>
     </html>
   );
