@@ -45,7 +45,7 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    <p className=" text-[#787878]">hello@bablephotography.com</p>
+                    <p className=" text-[#787878]">hello@photography.com</p>
                 </div>
 
                 {/* Vertical Line 1 */}
@@ -69,13 +69,13 @@ export default function Footer() {
                             </defs>
                             <text fill="gray" fontSize="15" fontWeight="500">
                                 <textPath href="#circlePath" startOffset="0%"  textLength="470">
-                                    BABLA - WEDDING - PHOTOGRAPHY - STUDIO • 
+                                    PHOTO - WEDDING - PHOTOGRAPHY - STUDIO • 
                                 </textPath>
                             </text>
                         </svg>
                     </motion.div>
                     <span className="absolute z-10 text-4xl font-signature text-white select-none">
-                        B
+                        R
                     </span>
                 </div>
 
@@ -87,15 +87,15 @@ export default function Footer() {
                 <div className="lg:col-span-1">
                     <h3 className="text-lg font-bold uppercase mb-4 tracking-widest text-[#222222]">Address</h3>
                     <p className="text-gray-500 mb-2">
-                        Babla Photography Studio<br />
-                        T.r.s Road Front of, John Tower (AIRTEL CELL TOWER), Narendra Nagar, Amaiya Colony, Rewa<br />
+                        Photography Studio<br />
+                         Sirmour Chauk, Rewa<br />
                         Madhya Pradesh 486001
                     </p>
                     <p className="text-gray-500 mb-2">
                         Phone: +91 98765 43210
                     </p>
                     <p className="text-gray-500">
-                        Email: hello@bablephotography.com
+                        Email: hello@photography.com
                     </p>
                 </div>
 
@@ -103,7 +103,7 @@ export default function Footer() {
 
             {/* Subfooter */}
             <div className="border-t border-[#cdcac5] py-4 text-center  text-gray-500">
-                © {new Date().getFullYear()} Babla Studio • All rights reserved.
+                © {new Date().getFullYear()} Photography Studio • All rights reserved.
             </div>
         </footer>
     )
